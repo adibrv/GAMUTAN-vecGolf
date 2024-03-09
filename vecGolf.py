@@ -24,6 +24,8 @@ end = 0
 elapsed = 0
 finalScore = 0
 scoreboardFile = 'scoreboard.txt'
+makeDB = open('scoreboard.txt', 'x')
+makeDB.close()
 
 
 def reset_scores():
